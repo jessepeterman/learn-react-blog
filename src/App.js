@@ -99,8 +99,8 @@ const App = () => (
     <div className="container">
       <Header />
       <Route exact path="/" render={() => (<Redirect to="/blogs"/>)} />
+      <Route exact path="/blogs" component={Topics} />
       {/* <Route path="/about" component={About} /> */}
-      <Route path="/blogs" component={Topics} />
       {/* <Route exact path="/" component={BlogScroll} /> */}
 
       {/* <Route
